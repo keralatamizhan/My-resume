@@ -3,11 +3,13 @@
 
 @font-face {
   font-family: 'Nevera';
-  src: url(Fonts/Nevera-Regular.woff2) format('web open font format 2.0');
-  font-family: 'Arl';
-  src: url(Fonts/ARLRDBD.woff2)format('web open font format 2.0');
+  src: url(https://cdn.jsdelivr.net/gh/keralatamizhan/My-resume@main/Fonts/Nevera-Regular.woff2)format('woff2');
 }
 
+@font-face {
+  font-family: 'Arl';
+  src: url(https://cdn.jsdelivr.net/gh/keralatamizhan/My-resume@main/Fonts/ARLRDBD.woff2)format('woff2');
+}
 :root {
   --bg:       #080808;
   --bg2:      #0f0f0f;
