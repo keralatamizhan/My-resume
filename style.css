@@ -8,7 +8,7 @@
   src: url(Fonts/ARLRDBD.woff2)format('web open font format 2.0');
 }
 
-:root {
+: {
   --bg:       #080808;
   --bg2:      #0f0f0f;
   --surface:  #141414;
