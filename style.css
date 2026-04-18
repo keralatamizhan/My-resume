@@ -2,10 +2,10 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 @font-face {
-  font-family: Nevera;
-  src: url(Fonts/Nevera-Regular.otf);
-  font-family: Arl;
-  src: url(Fonts/ARLRDBD.TTF);
+  font-family: 'Nevera';
+  src: url(Fonts/Nevera-Regular.otf) format('opentype');
+  font-family: 'Arl';
+  src: url(Fonts/ARLRDBD.TTF)format('truetype');
 }
 
 :root {
@@ -24,7 +24,7 @@
 }
 
 html { scroll-behavior: smooth; }
-body { font-family: Arl; background: var(--bg); color: var(--text); overflow-x: hidden; }
+body { font-family: 'Arl'; background: var(--bg); color: var(--text); overflow-x: hidden; }
 
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
@@ -39,7 +39,7 @@ body { font-family: Arl; background: var(--bg); color: var(--text); overflow-x: 
   border-bottom: 1px solid var(--border);
 }
 .logo {
-  font-family: Nevera; font-weight: 800;
+  font-family: 'Nevera'; font-weight: 800;
   font-size: 1.4rem; letter-spacing: 3px;
   background: var(--grad); -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; background-clip: text;
@@ -105,7 +105,7 @@ body { font-family: Arl; background: var(--bg); color: var(--text); overflow-x: 
 /* ─── HERO TEXT ─── */
 .hero-text { flex:1; }
 .big-name {
-  font-family:Nevera; font-weight:800;
+  font-family:'Nevera'; font-weight:800;
   font-size:clamp(3.5rem,8vw,6.5rem); line-height:1;
   background:var(--grad); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
   letter-spacing:-1px; margin-bottom:.4rem; animation:fadeUp .8s ease both; 
