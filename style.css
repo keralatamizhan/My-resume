@@ -3,9 +3,9 @@
 
 @font-face {
   font-family: 'Nevera';
-  src: url(Fonts/Nevera-Regular.otf) format('opentype');
+  src: url(Fonts/Nevera-Regular.woff2) format('web open font format 2.0');
   font-family: 'Arl';
-  src: url(Fonts/ARLRDBD.TTF)format('truetype');
+  src: url(Fonts/ARLRDBD.woff2)format('web open font format 2.0');
 }
 
 :root {
