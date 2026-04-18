@@ -38,7 +38,7 @@ body { font-family: 'Arl'; background: var(--bg); color: var(--text); overflow-x
   background: rgba(8,8,8,0.92); backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
 }
-. {
+.logo {
   font-family: 'Nevera'; font-weight: 800;
   font-size: 1.4rem; letter-spacing: 3px;
   background: var(--grad); -webkit-background-clip: text;
