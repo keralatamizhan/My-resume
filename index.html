@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deebith | Graphic Designer + Programmer</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+<!-- SVG Gradient Definitions -->
+<svg width="0" height="0" style="position:absolute; width:0; height:0;">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="50%" stop-color="#FFD700" />
+      <stop offset="100%" stop-color="#B8860B" />
+    </linearGradient>
+  </defs>
+</svg>
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">DEEBITH</div>
+  <ul class="nav-links">
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hex-grid">
+    <div class="hex h1"></div><div class="hex h2"></div>
+    <div class="hex h3"></div><div class="hex h4"></div>
+    <div class="hex h5"></div><div class="hex h6"></div>
+  </div>
+  <div class="particles">
+    <span class="dot d1"></span><span class="dot d2"></span>
+    <span class="dot d3"></span><span class="dot d4"></span>
+    <span class="dot d5"></span>
+  </div>
+
+  <div class="hero-inner">
+    <div class="profile-wrap">
+      <div class="profile-ring">
+        <div class="profile-glow"></div>
+        <img id="profileImg" src="images/profile.png" alt="Deebith" class="profile-img"/>
+      </div>
+    </div>
+
+    <div class="hero-text">
+      <h1 class="big-name" id="heroName">DEEBITH</h1>
+      <p class="title-tag" id="heroTitle">Graphic Designer + Programmer</p>
+      <p class="hero-desc" id="heroDesc">Fusing visual aesthetics with dynamic coding. Crafting unique digital experiences through innovative design and robust development. Specializing in UI/UX, branding, and efficient software solutions.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="section-inner">
+    <h2 class="section-title">About <span>Me</span></h2>
+    <div class="about-grid">
+      <div class="about-img-wrap">
+        <img id="aboutImg" src="images/profile.png" alt="About Deebith"/>
+      </div>
+      <div class="about-text">
+        <p id="aboutText">I'm a passionate Graphic Designer and Programmer based in Tamil Nadu, India. I blend creative design with technical expertise to build experiences that are both beautiful and functional.</p>
+        <button onclick="downloadResume()" class="btn btn-primary">Download Resume</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section alt" id="skills">
+  <div class="section-inner">
+    <h2 class="section-title">My <span>Skills</span></h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-circle">
+          <svg viewBox="0 0 100 100">
+             <circle class="bg" cx="50" cy="50" r="45"></circle>
+             <circle class="progress" cx="50" cy="50" r="45" style="--percent: 90;"></circle>
+          </svg>
+          <div class="skill-icon">
+            <img src="icons/photoshop.ico" alt="Photoshop" style="filter: invert(1);">
+          </div>
+          <div class="skill-percent">90%</div>
+        </div>
+        <h3>Photoshop</h3>
+      </div>
+      <div class="skill-card">
+        <div class="skill-circle">
+          <svg viewBox="0 0 100 100">
+             <circle class="bg" cx="50" cy="50" r="45"></circle>
+             <circle class="progress" cx="50" cy="50" r="45" style="--percent: 85;"></circle>
+          </svg>
+          <div class="skill-icon">
+            <img src="icons/coreldraw.ico" alt="CorelDraw" style="filter:invert(1);">
+          </div>
+          <div class="skill-percent">85%</div>
+        </div>
+        <h3>CorelDraw</h3>
+      </div>
+      <div class="skill-card">
+        <div class="skill-circle">
+          <svg viewBox="0 0 100 100">
+             <circle class="bg" cx="50" cy="50" r="45"></circle>
+             <circle class="progress" cx="50" cy="50" r="45" style="--percent: 70;"></circle>
+          </svg>
+          <div class="skill-icon">
+            <img src="icons/after effects.ico" alt="After Effects" style="filter: invert(1);">
+          </div>
+          <div class="skill-percent">70%</div>
+        </div>
+        <h3>After Effects</h3>
+      </div>
+      <div class="skill-card">
+        <div class="skill-circle">
+          <svg viewBox="0 0 100 100">
+             <circle class="bg" cx="50" cy="50" r="45"></circle>
+             <circle class="progress" cx="50" cy="50" r="45" style="--percent: 50;"></circle>
+          </svg>
+          <div class="skill-icon">
+          <img src="icons/python.ico" alt="Python" style="filter: invert(1);">
+          </div>
+          <div class="skill-percent">50%</div>
+        </div>
+        <h3>Python</h3>
+      </div>
+      <div class="skill-card">
+        <div class="skill-circle">
+          <svg viewBox="0 0 100 100">
+             <circle class="bg" cx="50" cy="50" r="45"></circle>
+             <circle class="progress" cx="50" cy="50" r="45" style="--percent: 85;"></circle>
+          </svg>
+          <div class="skill-icon">
+          <img src="icons/html.ico" alt="HTML" style="filter: invert(1);">
+          </div>
+          <div class="skill-percent">85%</div>
+        </div>
+        <h3>HTML</h3>
+      </div>
+      <div class="skill-card">
+        <div class="skill-circle">
+          <svg viewBox="0 0 100 100">
+             <circle class="bg" cx="50" cy="50" r="45"></circle>
+             <circle class="progress" cx="50" cy="50" r="45" style="--percent: 85;"></circle>
+          </svg>
+          <div class="skill-icon">
+          <img src="icons/css.ico" alt="CSS" style="filter: invert(1);">
+          </div>
+          <div class="skill-percent">85%</div>
+        </div>
+        <h3>CSS</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK EXPERIENCE -->
+<section class="section" id="experience">
+  <div class="section-inner">
+    <h2 class="section-title">Work <span>Experience</span></h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="timeline-content">
+          <h3>Deepam Graphics</h3>
+          <h4>Product Designer</h4>
+          <p>As a Product Package Designer at Deepam Graphics, I created attractive and functional packaging designs aligned with brand identity. I developed concepts, labels, and print-ready layouts to enhance product appeal. I collaborated with clients and production teams to ensure quality and timely delivery.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="timeline-content">
+          <h3>Profenna Technologies</h3>
+          <h4>Content Creater</h4>
+          <p>As a Content Creator at Profenna Technologies, I created engaging and creative content aligned with brand goals. I developed posts, visuals, and ideas to enhance audience engagement and reach. I collaborated with the team to ensure consistency, quality, and timely delivery of content.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="timeline-content">
+          <h3>AutoBotz</h3>
+          <h4>Content Writer</h4>
+          <p>As a Content Writeriter at AutoBotz, I created clear and engaging written content tailored to the brand voice. I developed articles, captions, and marketing copy to improve audience reach and communication. I ensured all content was well-structured, consistent, and delivered on time.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="timeline-content">
+          <h3>Venkateswara stores</h3>
+          <h4>Brand Designer</h4>
+          <p>As a Brand Designer at Venkateswara Stores, I developed visual identities that strengthened brand recognition. I created logos, promotional materials, and design assets aligned with the brand’s image. I ensured consistency and quality across all designs while meeting project deadlines.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section alt" id="education">
+  <div class="section-inner">
+    <h2 class="section-title">My <span>Education</span></h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa-solid fa-school"></i></div>
+        <div class="timeline-content">
+          <h3>Government Higher Secondary School</h3>
+          <h4>12th Standard — Biology</h4>
+          <p>Tiruppur-Tamil Nadu</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div class="timeline-content">
+          <h3>Erode Arts and Science College</h3>
+          <h4>Bachelor of Science in Computer Science</h4>
+          <p>Erode-Tamil Nadu</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div class="timeline-content">
+          <h3>Erode Arts and Science College</h3>
+          <h4>Master of Science in Computer Science</h4>
+          <p>Erode-Tamil Nadu</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <div class="section-inner">
+    <h2 class="section-title">My <span>Services</span></h2>
+    <div class="works-grid" id="worksGrid">
+      <!-- Project 1 -->
+      <a class="work-card" href="#" target="_blank" style="text-decoration:none">
+        <img src="images/logo-creation.png" alt="Logo Design" loading="lazy"/>
+        <div class="work-card-body">
+          <h3>Logo Design</h3>
+          <p>Creating unique and memorable logos that reflect the brand's identity and values.</p>
+          <span class="tag">Logo</span>
+        </div>
+      </a>
+
+      <!-- Project 2 -->
+      <a class="work-card" href="#" target="_blank" style="text-decoration:none">
+        <img src="images/product-creation.png" alt="Product Design" loading="lazy"/>
+        <div class="work-card-body">
+          <h3>Product Design</h3>
+          <p>Creating unique and memorable product designs that reflect the brand's identity and values.</p>
+          <span class="tag">Product</span>
+        </div>
+      </a>
+
+      <!-- Project 3 -->
+      <a class="work-card" href="#" target="_blank" style="text-decoration:none">
+        <img src="images/banner-creation.png" alt="Banner Design" loading="lazy"/>
+        <div class="work-card-body">
+          <h3>Banner Design</h3>
+          <p>Creating unique and memorable banners that reflect the brand's identity and values.</p>
+          <span class="tag">Banner</span>
+        </div>
+      </a>
+
+      <!-- Project 4 -->
+      <a class="work-card" href="#" target="_blank" style="text-decoration:none">
+        <img src="images/content-creation.png" alt="Content Creation" loading="lazy"/>
+        <div class="work-card-body">
+          <h3>Content Creation</h3>
+          <p>Creating unique and memorable content that reflect the brand's identity and values.</p>
+          <span class="tag">Content</span>
+        </div>
+      </a>
+        
+      <!-- Project 5 -->
+      <a class="work-card" href="#" target="_blank" style="text-decoration:none">
+        <img src="images/video-editing.png" alt="Video Editing" loading="lazy"/>
+        <div class="work-card-body">
+          <h3>Video Editing</h3>
+          <p>Creating unique and memorable video edits that reflect the brand's identity and values.</p>
+          <span class="tag">Video</span>
+        </div>
+      </a>
+
+      <!-- Project 6 -->
+      <a class="work-card" href="#" target="_blank" style="text-decoration:none">
+        <img src="images/branding-creation.png" alt="Branding" loading="lazy"/>
+        <div class="work-card-body">
+          <h3>Branding</h3>
+          <p>Creating unique and memorable branding that reflect the brand's identity and values.</p>
+          <span class="tag">Branding</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="section-inner">
+    <h2 class="section-title">Get In <span>Touch</span></h2>
+    <p class="contact-sub">Feel free to reach out through any of the platforms below.</p>
+  </div>
+</section>
+
+<!-- SOCIAL BAR -->
+<div class="social-bar">
+  <a href="https://wa.me/917603839294" class="social-icon" title="WhatsApp" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+  <a href="https://www.instagram.com/__phoenix_graphics__/" class="social-icon" title="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+  <a href="tel:+917603839294" class="social-icon" title="Phone" target="_blank"><i class="fa-solid fa-phone-volume"></i></a>
+  <a href="https://mail.google.com/mail/?view=cm&to=ramkumardeebith@gmail.com" class="social-icon" title="Gmail" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+  <a href="https://www.behance.net/deebith" class="social-icon" title="Behance" target="_blank"><i class="fa-brands fa-behance"></i></a>
+  <a href="https://dribbble.com/deebith-ramkumar" class="social-icon" title="Dribbble" target="_blank"><i class="fa-brands fa-dribbble"></i></a>
+  <a href="https://github.com/keralatamizhan" class="social-icon" title="GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p id="footerText">© 2026 Deebith | All Rights Reserved | Tamilnadu, India</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
